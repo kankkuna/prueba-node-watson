@@ -18,7 +18,7 @@ div {
 }
 
 .chat-column {
-    height: 100%;
+    height: 50%;
     padding: 0.9375rem 0 0.625rem 0;
     margin: auto;
     text-align: left;
@@ -149,4 +149,11 @@ div {
     .chat-column {
         padding-top: 4rem;
     }
+}
+
+footer {
+    height: 50px;
+    width: 5
+    0px;
+    border-inline-end-color: #9855D4;
 }
