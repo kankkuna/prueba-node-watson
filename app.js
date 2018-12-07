@@ -9,7 +9,7 @@ app.use(bodyParser.json());
 // contenido estatico
 app.use(express.static('public'));
 
-const port = 3000;
+const port = process.env.PORT || 3000;
 const assistant = new AssistantV1({
   username: 'apikey',
   password: 'RDJCzTeukzpQxhi9yWriPzKuZs0Tbc3lUxkyttF6HxfG',
