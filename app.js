@@ -36,5 +36,5 @@ app.post('/conversation/', (req, res) => {
   });
 });
 
-app.listen(process.env.PORT || port, () => console.log(`Running on port ${port}`));
+app.listen(process.env.PORT || 3000, () => console.log(`Running on port ${port}`));
 
