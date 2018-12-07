@@ -28,6 +28,7 @@ div {
 
 #chat {
     margin: 0.75rem;
+    z-index: 1000;
     overflow-y: auto;
     overflow-x: hidden;
     height: 80vh;
@@ -157,3 +158,6 @@ footer {
     0px;
     border-inline-end-color: #9855D4;
 }
+
+/*Termina css de chatbot*/
+
