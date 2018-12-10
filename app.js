@@ -7,7 +7,7 @@ const app = express();
 app.use(bodyParser.json());
 
 // contenido estatico
-app.use(express.static('public'));
+app.use(express.static('./public'));
 
 const port = process.env.PORT || 3000;
 const assistant = new AssistantV1({
