@@ -161,3 +161,14 @@ footer {
 
 /*Termina css de chatbot*/
 
+#fondoJumbotron {
+background-image: url('./doc/source/images/IMG_0155.jpg');
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+@media (min-width: 576px){
+.jumbotron {
+    padding: 14rem 2rem;
+}
+}

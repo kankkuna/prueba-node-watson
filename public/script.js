@@ -3,11 +3,12 @@ const chat = document.getElementById('chat');
 
 let context = {};
 
-const templateChatMessage = (message, from) => `
+const templateChatMessage = ( message, from) => `
   <div class="from-${from}">
     <div class="message-inner">
       <p>${message}</p>
     </div>
+    <img source={} class=""/>  
   </div>
   `;
 
@@ -49,3 +50,6 @@ textInput.addEventListener('keydown', (event) => {
 });
 
 getWatsonMessageAndInsertTemplate();
+
+$('.carousel').carousel()
+
